@@ -1,0 +1,15 @@
+version: '2'
+services:
+  geth-master:
+   container_name: geth-master
+   image: ccc:0.0.1
+   restart: always
+   ports:
+   - 8080:8080
+   - 30303:30303
+   working_dir: /opt
+   command: sh run.sh 
+   volumes:
+   - /opt/build:/opt
+
+
