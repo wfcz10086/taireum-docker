@@ -19,6 +19,7 @@ todo
     docker load <ccc_0.0.1.tar.gz
 
 3.下载geth客户端
+
     cd build
     git clone https://github.com/taireum/go-taireum
 
