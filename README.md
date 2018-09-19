@@ -23,6 +23,7 @@ todo
     git clone https://github.com/taireum/go-taireum
 
 4.启动
+
      docker-compose -f geth.yaml up -d
 
 
